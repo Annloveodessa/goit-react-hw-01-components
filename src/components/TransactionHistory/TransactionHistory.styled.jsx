@@ -1,7 +1,17 @@
 import styled from '@emotion/styled';
 
+export const Table = styled.table`
+ 
+  margin: 0 auto;
+`;
+
 export const Tr = styled.tr`
-  font-size: 12px;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  padding-left: 100px;
+  font-size: 13px;
   font-weight: bold;
   &:nth-child(even) {
     background-color: lightgrey;
@@ -9,9 +19,7 @@ export const Tr = styled.tr`
   &:nth-child(odd) {
     background-color: grey;
   }
-  
 `;
 export const Trthead = styled.tr`
-  background-color: blue;
-  
-`
+  background-color: aqua;
+`;

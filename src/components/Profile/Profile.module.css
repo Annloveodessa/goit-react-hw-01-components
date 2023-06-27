@@ -3,18 +3,35 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
-}
-.stats {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
+.stats {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 2%;
+
+  margin-right: 10px;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.quantity {
+  margin-left: 10px;
+}
+
+.description {
+  border-radius: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(19, 18, 19);
+
+  &:nth-child(odd) {
+    background-color: grey;
+  }
+}
